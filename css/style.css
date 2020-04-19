@@ -1,0 +1,74 @@
+.button1 {
+  display: inline-block;
+  border-radius: 4px;
+  font-family: myFirstFont;
+	font-weight:bold;
+	letter-spacing: 1px;
+  background:transparent;
+  border: 1px solid;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 0.8;
+  right: 0;
+}
+.blog{
+	background:rgb(30, 140, 148);
+}
+h1{
+	color:#DEDDDB;
+	font-size:50px;
+	text-decoration:none;
+	 font-family: monotype corsiva;
+	font-weight:bold;
+	letter-spacing: 1px;
+}
+p{
+	color:F8EFE0;
+	font-size:20px;
+	text-decoration:none;
+	font-family:Arial;
+	letter-spacing:0.5px;
+	font-weight:2px;
+}
+.button {
+    background: rgba(208,132,83,4);
+    color: #fff;
+    font-family: Sans-serif;
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+    line-height: 60px;
+    margin: 25px 25px;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+}
